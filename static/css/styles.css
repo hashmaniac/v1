@@ -1,0 +1,128 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    padding-top: 90px;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 1rem;
+    position: relative;
+    min-height: 100vh;
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 90px;
+    }
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0px auto 50px;
+    bottom: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        margin:5px auto 50px;
+        min-height: 400px;
+        max-width: 80% !important;  
+    }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.navbar {
+    background: #333;
+}
+
+.navbar-left img {
+    height: 3rem;
+    width: 3rem;
+    margin: auto;
+}
+
+.nav-link, .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+    font-family: 'Noto Serif', serif;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: cornflowerblue;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background:  white !important;
+    padding: 0.25rem 0.75rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 0.125rem solid transparent;
+    border-radius: 0.5rem;
+}
+
+.navbar-toggler span{
+    color: black;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+    color: highlight;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #111;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #73707D;
+  text-align: center;
+  width: 100%;
+  margin: 15px auto 0px;
+  padding: 15px 0px;
+}
